@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 @pytest.mark.lang
-def test_browser_language(browser):
+def test_add_to_cart_button(browser):
 
     # поиск элемента на странице
     WebDriverWait(browser, 5).until(
